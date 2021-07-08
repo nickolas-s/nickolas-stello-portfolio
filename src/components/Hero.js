@@ -5,7 +5,7 @@ function Hero() {
     <HeroStyles>
       <section>
         <div className="info-container">
-          <p>Hi! I'm Nickolas Stello</p>
+          <h1>Hi! I'm Nickolas Stello</h1>
           <p>I'm a Frontend developer based in Mississauga, Canada.</p>
           <p>Currently open to opportunities.</p>
         </div>

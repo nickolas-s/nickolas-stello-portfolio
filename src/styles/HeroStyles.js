@@ -19,17 +19,19 @@ const HeroStyles = styled.div`
       padding-right: 30px;
       font-size: 20px;
 
-      & p:first-child {
+      h1 {
         color: ${colors.accentColor};
         font-size: 35px;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
         font-weight: 500;
+        line-height: normal;
+        padding-bottom: 20px;
       }
     }
 
     .img-container {
       height: 200px;
-      min-width: 200px;
+      width: 200px;
       border-radius: 50%;
       border: 5px solid ${colors.paragraph};
       box-shadow: 0px 0px 8px ${colors.accentColor};

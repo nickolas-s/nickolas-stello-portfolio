@@ -15,7 +15,7 @@ const projects = [
     image:
       'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556318/portfolio/javascript30_bdwsgb.png',
     projectURL: 'https://javascript-30-challenge.netlify.app',
-    codeURL: 'https://github.com/nickolas-s/JavaScript-30',
+    codeURL: 'https://github.com/nickolas-s/Projects---JavaScript-30',
   },
   {
     id: 3,

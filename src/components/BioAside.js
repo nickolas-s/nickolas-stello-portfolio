@@ -21,11 +21,11 @@ function BioAside() {
       <div className="container-bio">
         <h2>Bio</h2>
         <p>
-          Experienced Fund Accountant successful at managing multiple trust
-          funds and consistently meeting deadlines under pressure. Proven
-          experience in completing full cycle of accounting, including monthly
-          financial statements, general ledger maintenance and account
-          reconciliations.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. In aliquam
+          sem fringilla ut morbi tincidunt. Quis risus sed vulputate odio. Eget
+          aliquet nibh praesent tristique magna sit. Vivamus arcu felis bibendum
+          ut tristique. Leo duis ut diam quam.
         </p>
         <br />
         <p>
@@ -86,7 +86,7 @@ function BioAside() {
         <h2>Soft Skills</h2>
         <ul>
           <li>Teamwork</li>
-          <li>Open-mindedness</li>
+          <li>Open-minded</li>
           <li>Problem Solving</li>
           <li>Effective Communication</li>
         </ul>
@@ -96,7 +96,7 @@ function BioAside() {
         <h2>Contact</h2>
         <p>
           <FaPhoneAlt className="icon" />
-          +1 (647) 993-8877
+          <a href="tel:+1-647-993-8877">+1 (647) 993-8877</a>
         </p>
         <p>
           <FaRegEnvelope className="icon" />
@@ -115,7 +115,7 @@ function BioAside() {
         <p>
           <FaLaptopCode className="icon" />
           <a
-            href="https://github.com/nickolas-s"
+            href="https://nickolas-stello.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

@@ -49,6 +49,17 @@ const ResumeArticleStyles = styled.div`
       }
     }
   }
+
+  @media (max-width: 550px) {
+    header {
+      flex-direction: column;
+      padding-bottom: 0px;
+
+      p {
+        padding: 0px;
+      }
+    }
+  }
 `;
 
 export default ResumeArticleStyles;
