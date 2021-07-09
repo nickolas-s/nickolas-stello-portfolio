@@ -50,7 +50,7 @@ const ResumeArticleStyles = styled.div`
     }
   }
 
-  @media (max-width: 550px) {
+  @media (max-width: 850px) {
     header {
       flex-direction: column;
       padding-bottom: 0px;
