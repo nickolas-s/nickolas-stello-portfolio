@@ -122,7 +122,8 @@ const ResumePageStyles = styled.div`
         }
       }
 
-      &-contact {
+      &-contact,
+      &-social {
         padding: 20px;
 
         p {
@@ -140,6 +141,10 @@ const ResumePageStyles = styled.div`
           a {
             color: inherit;
           }
+        }
+
+        .linkedin {
+          font-size: 12px;
         }
       }
     }
@@ -163,6 +168,10 @@ const ResumePageStyles = styled.div`
       .container {
         max-width: 500px;
         justify-self: center;
+
+        .linkedin {
+          font-size: 14px;
+        }
       }
     }
   }

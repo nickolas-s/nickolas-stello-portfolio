@@ -3,7 +3,6 @@ import { Route, Switch, useHistory } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
-import ContactPage from './pages/ContactPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import GlobalStyles from './styles/globalStyles';
@@ -35,9 +34,6 @@ function App() {
             </Route>
             <Route path="/resume">
               <ResumePage />
-            </Route>
-            <Route path="/contact">
-              <ContactPage />
             </Route>
           </Switch>
         </main>

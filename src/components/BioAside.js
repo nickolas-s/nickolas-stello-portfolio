@@ -1,8 +1,10 @@
 import {
   FaRegEnvelope,
-  FaPhoneAlt,
   FaRegAddressBook,
   FaLaptopCode,
+  FaLinkedinIn,
+  FaTwitter,
+  FaGithub,
 } from 'react-icons/fa';
 
 function BioAside() {
@@ -95,10 +97,6 @@ function BioAside() {
       <div className="container-contact">
         <h2>Contact</h2>
         <p>
-          <FaPhoneAlt className="icon" />
-          <a href="tel:+1-647-993-8877">+1 (647) 993-8877</a>
-        </p>
-        <p>
           <FaRegEnvelope className="icon" />
           <a
             href="mailto:stellonickolas@gmail.com"
@@ -109,17 +107,51 @@ function BioAside() {
           </a>
         </p>
         <p>
-          <FaRegAddressBook className="icon" />
-          Mississauga, ON
-        </p>
-        <p>
           <FaLaptopCode className="icon" />
           <a
-            href="https://nickolas-stello.netlify.app/"
+            href="https://nickolas-stello.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
-            nickstello.ca
+            nickolas-stello.dev
+          </a>
+        </p>
+        <p>
+          <FaRegAddressBook className="icon" />
+          Mississauga, ON
+        </p>
+      </div>
+      <hr />
+      <div className="container-social">
+        <h2>Social Media</h2>
+        <p className="linkedin">
+          <FaLinkedinIn className="icon" />
+          <a
+            href="https://ca.linkedin.com/in/nickolasstello"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ca.linkedin.com/in/nickolasstello
+          </a>
+        </p>
+        <p>
+          <FaTwitter className="icon" />
+          <a
+            href="https://twitter.com/nickolas_stello"
+            target="_blank"
+            rel="noreferrer"
+          >
+            twitter.com/nickolas_stello
+          </a>
+        </p>
+        <p>
+          <FaGithub className="icon" />
+          <a
+            href="https://github.com/nickolas-s"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github.com/nickolas-s
           </a>
         </p>
       </div>

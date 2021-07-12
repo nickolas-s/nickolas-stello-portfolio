@@ -26,13 +26,6 @@ function Header({ currentPage, handleClick }) {
           >
             Resume
           </Link>
-          {/* <Link
-            to="/contact"
-            onClick={handleClick}
-            className={`${currentPage === '/contact' ? 'active' : ''}`}
-          >
-            Contact
-          </Link> */}
         </div>
       </nav>
     </HeaderContainer>

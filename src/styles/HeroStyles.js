@@ -27,6 +27,35 @@ const HeroStyles = styled.div`
         line-height: normal;
         padding-bottom: 20px;
       }
+
+      a {
+        color: ${colors.paragraph};
+        position: relative;
+        transition: transform 250ms ease 0s, color 250ms ease 0s;
+        display: inline-block;
+
+        &:hover {
+          transform: skew(-3deg, -3deg);
+
+          &:after {
+            height: 105%;
+            width: 110%;
+          }
+        }
+
+        &:after {
+          background-color: ${colors.accentColor};
+          bottom: 0px;
+          content: '';
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          transform: translateX(-50%);
+          transition: width 250ms ease 0s, height 250ms ease 0s;
+          width: 100%;
+          z-index: -1;
+        }
+      }
     }
 
     .img-container {

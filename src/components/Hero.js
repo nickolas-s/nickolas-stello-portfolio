@@ -7,7 +7,18 @@ function Hero() {
         <div className="info-container">
           <h1>Hi! I'm Nickolas Stello</h1>
           <p>I'm a Frontend developer based in Mississauga, Canada.</p>
-          <p>Currently open to opportunities.</p>
+          <p>
+            Currently open to opportunities.{' '}
+            <span>
+              <a
+                href="mailto:stellonickolas@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Get in Touch!
+              </a>
+            </span>
+          </p>
         </div>
         <div className="img-container">
           <img
