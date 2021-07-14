@@ -22,7 +22,7 @@ const projects = [
     title: 'Alpha-Bots',
     description: 'Alpha-Bots app on React',
     image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556315/portfolio/alpha-bots_fbvopl.png',
+      'https://res.cloudinary.com/dnfecsurp/image/upload/v1626267552/portfolio/alpha-bots2_grvlis.png',
     projectURL: 'https://alpha-bots.netlify.app',
     codeURL: 'https://github.com/nickolas-s/Alpha-Bots',
   },
@@ -47,7 +47,7 @@ const projects = [
   {
     id: 6,
     title: 'Confy Sloth',
-    description: 'Trivia Quiz App on React',
+    description: 'E-commerce store on React',
     image:
       'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556317/portfolio/confy-sloth_pat0zz.png',
     projectURL: 'https://confyslothstore.netlify.app',

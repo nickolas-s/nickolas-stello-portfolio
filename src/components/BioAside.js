@@ -23,11 +23,11 @@ function BioAside() {
       <div className="container-bio">
         <h2>Bio</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. In aliquam
-          sem fringilla ut morbi tincidunt. Quis risus sed vulputate odio. Eget
-          aliquet nibh praesent tristique magna sit. Vivamus arcu felis bibendum
-          ut tristique. Leo duis ut diam quam.
+          Highly motivated and enthusiastic self-taught web developer with solid
+          knowledge of HTML, CSS, JavaScript and React seeking to leverage
+          analytical thinking, problem solving and strong attention to detail
+          skills obtained through 5+ years as Trust Fund Accountant to
+          transition to a Front-end Developer position.
         </p>
         <br />
         <p>
@@ -108,12 +108,8 @@ function BioAside() {
         </p>
         <p>
           <FaLaptopCode className="icon" />
-          <a
-            href="https://nickolas-stello.netlify.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            nickolas-stello.dev
+          <a href="https://nickstello.dev" target="_blank" rel="noreferrer">
+            nickstello.dev
           </a>
         </p>
         <p>

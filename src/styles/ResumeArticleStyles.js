@@ -29,6 +29,7 @@ const ResumeArticleStyles = styled.div`
 
     p {
       line-height: 1.8;
+      font-weight: 400;
     }
   }
 
@@ -36,6 +37,7 @@ const ResumeArticleStyles = styled.div`
     padding-bottom: 10px;
     padding-left: 15px;
     line-height: 1.5;
+    font-weight: 100;
   }
 
   ul {

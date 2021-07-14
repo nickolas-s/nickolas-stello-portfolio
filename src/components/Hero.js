@@ -15,7 +15,7 @@ function Hero() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Get in Touch!
+                Let's Connect!
               </a>
             </span>
           </p>

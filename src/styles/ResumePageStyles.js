@@ -64,7 +64,7 @@ const ResumePageStyles = styled.div`
         padding: 20px;
 
         p {
-          text-align: justify;
+          /* text-align: justify; */
         }
       }
 
@@ -168,6 +168,10 @@ const ResumePageStyles = styled.div`
       .container {
         max-width: 500px;
         justify-self: center;
+
+        &-bio p {
+          text-align: justify;
+        }
 
         .linkedin {
           font-size: 14px;
