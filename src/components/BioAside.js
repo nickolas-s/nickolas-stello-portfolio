@@ -31,8 +31,8 @@ function BioAside() {
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean leo
-          leo, tincidunt in volutpat mattis, scelerisque tincidunt tellus.
+          With a passion for learning, the next steps on the coding journey will
+          be to learn TypeScript and Node.js.
         </p>
       </div>
       <hr />

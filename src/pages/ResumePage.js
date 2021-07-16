@@ -15,14 +15,14 @@ function ResumePage() {
 
         <section>
           <article>
-            <h2>EDUCATION</h2>
+            <h2>CERTIFICATES & EDUCATION</h2>
             {education.map((course) => (
               <EducationArticle key={course.id} {...course} />
             ))}
           </article>
 
           <article>
-            <h2>EXPERIENCE</h2>
+            <h2>PROFESSIONAL EXPERIENCE</h2>
             {experiences.map((job) => (
               <ExperienceArticle key={job.id} {...job} />
             ))}
