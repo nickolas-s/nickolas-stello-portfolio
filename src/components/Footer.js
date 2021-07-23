@@ -15,7 +15,7 @@ function Footer() {
         <FaTwitterSquare />
       </a>
       <a
-        href="https://ca.linkedin.com/in/nickolasstello"
+        href="https://www.linkedin.com/in/nickstello"
         target="_blank"
         rel="noreferrer"
       >

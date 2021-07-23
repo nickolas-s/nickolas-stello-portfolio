@@ -142,10 +142,6 @@ const ResumePageStyles = styled.div`
             color: inherit;
           }
         }
-
-        .linkedin {
-          font-size: 12px;
-        }
       }
     }
 

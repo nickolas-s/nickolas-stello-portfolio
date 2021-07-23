@@ -6,7 +6,7 @@ function Hero() {
       <section>
         <div className="info-container">
           <h1>Hi! I'm Nickolas Stello</h1>
-          <p>I'm a Frontend developer based in Mississauga, Canada.</p>
+          <p>I'm a Front-End Developer based in Mississauga, Canada.</p>
           <p>
             Currently open to opportunities.{' '}
             <span>

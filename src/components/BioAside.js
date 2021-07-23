@@ -18,7 +18,7 @@ function BioAside() {
       </div>
       <div className="container-name">
         <h2>NICKOLAS STELLO</h2>
-        <p>FRONTEND DEVELOPER</p>
+        <p>FRONT-END DEVELOPER</p>
       </div>
       <div className="container-bio">
         <h2>Bio</h2>
@@ -27,7 +27,7 @@ function BioAside() {
           knowledge of HTML, CSS, JavaScript and React seeking to leverage
           analytical thinking, problem solving and strong attention to detail
           skills obtained through 5+ years as Trust Fund Accountant to
-          transition to a Front-end Developer position.
+          transition to a Front-End Developer position.
         </p>
         <br />
         <p>
@@ -120,14 +120,14 @@ function BioAside() {
       <hr />
       <div className="container-social">
         <h2>Social Media</h2>
-        <p className="linkedin">
+        <p>
           <FaLinkedinIn className="icon" />
           <a
-            href="https://ca.linkedin.com/in/nickolasstello"
+            href="https://www.linkedin.com/in/nickstello"
             target="_blank"
             rel="noreferrer"
           >
-            ca.linkedin.com/in/nickolasstello
+            linkedin.com/in/nickstello
           </a>
         </p>
         <p>
