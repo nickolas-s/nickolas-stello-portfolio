@@ -28,6 +28,10 @@ const HeroStyles = styled.div`
         padding-bottom: 20px;
       }
 
+      p {
+        max-width: 506px;
+      }
+
       a {
         color: ${colors.paragraph};
         position: relative;
@@ -60,7 +64,7 @@ const HeroStyles = styled.div`
 
     .img-container {
       height: 200px;
-      width: 200px;
+      min-width: 200px;
       border-radius: 50%;
       border: 5px solid ${colors.paragraph};
       box-shadow: 0px 0px 8px ${colors.accentColor};
@@ -83,6 +87,16 @@ const HeroStyles = styled.div`
         padding-top: 20px;
         padding-right: 0px;
         text-align: center;
+      }
+    }
+  }
+
+  @media (max-width: 415px) {
+    section {
+      .info-container {
+        h1 {
+          font-size: 28px;
+        }
       }
     }
   }

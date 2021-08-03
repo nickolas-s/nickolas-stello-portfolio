@@ -21,13 +21,12 @@ function BioAside() {
         <p>FRONT-END DEVELOPER</p>
       </div>
       <div className="container-bio">
-        <h2>Bio</h2>
         <p>
-          Highly motivated and enthusiastic self-taught web developer with solid
-          knowledge of HTML, CSS, JavaScript and React seeking to leverage
-          analytical thinking, problem solving and strong attention to detail
-          skills obtained through 5+ years as Trust Fund Accountant to
-          transition to a Front-End Developer position.
+          Highly motivated self-taught web developer with solid knowledge of
+          HTML, CSS, JavaScript and React seeking to leverage analytical
+          thinking, problem solving and strong attention to detail skills
+          obtained through 5+ years as Trust Fund Accountant to transition to a
+          Front-End Developer position.
         </p>
         <br />
         <p>
@@ -114,7 +113,7 @@ function BioAside() {
         </p>
         <p>
           <FaRegAddressBook className="icon" />
-          Mississauga, ON
+          Toronto, ON
         </p>
       </div>
       <hr />

@@ -12,6 +12,8 @@ function App() {
   const history = useHistory();
 
   const handleClick = (e) => {
+    console.log('💩');
+    console.log(e.target.textContent);
     setCurrentPage(`/${e.target.textContent.toLowerCase()}`);
   };
 
@@ -27,7 +29,7 @@ function App() {
         <main>
           <Switch>
             <Route exact path="/">
-              <HomePage />
+              <HomePage handleClick={handleClick} currentPage={currentPage} />
             </Route>
             <Route path="/projects">
               <ProjectsPage />

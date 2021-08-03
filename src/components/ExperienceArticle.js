@@ -5,7 +5,7 @@ function ExperienceArticle({
   company,
   position,
   date,
-  accomplishments,
+  accomplishment,
   responsabilities,
 }) {
   return (
@@ -17,9 +17,9 @@ function ExperienceArticle({
         </div>
         <p>{date}</p>
       </header>
-      {accomplishments && (
+      {accomplishment && (
         <p>
-          <em>Key Accomplishments:</em> {accomplishments}
+          <em>Key Accomplishment:</em> {accomplishment}
         </p>
       )}
       {responsabilities && (

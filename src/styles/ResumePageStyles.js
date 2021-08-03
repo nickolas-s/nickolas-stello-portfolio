@@ -2,18 +2,7 @@ import styled from 'styled-components';
 import { colors } from './config';
 
 const ResumePageStyles = styled.div`
-  padding: 0px 20px;
-
-  h1 {
-    color: ${colors.headline};
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-    padding-bottom: 20px;
-    line-height: normal;
-  }
+  padding: 20px 20px 0px 20px;
 
   .wrapper {
     display: grid;
@@ -39,6 +28,10 @@ const ResumePageStyles = styled.div`
         background-color: ${colors.accentColor};
         border: none;
         height: 1px;
+
+        &:first-of-type {
+          display: none;
+        }
       }
 
       &-img {
@@ -62,6 +55,7 @@ const ResumePageStyles = styled.div`
 
       &-bio {
         padding: 20px;
+        display: none;
 
         p {
           /* text-align: justify; */
@@ -151,8 +145,14 @@ const ResumePageStyles = styled.div`
         letter-spacing: 1px;
         font-weight: 400;
         border-bottom: 2px solid ${colors.accentColor};
-        margin-bottom: 10px;
+        margin: 10px 0px;
         text-align: center;
+      }
+
+      .bio-wide {
+        color: ${colors.headline};
+        padding-bottom: 20px;
+        letter-spacing: 0.5px;
       }
     }
   }
@@ -165,13 +165,29 @@ const ResumePageStyles = styled.div`
         max-width: 500px;
         justify-self: center;
 
-        &-bio p {
-          text-align: justify;
+        &-bio {
+          display: block;
+
+          p {
+            text-align: justify;
+          }
         }
 
-        .linkedin {
-          font-size: 14px;
+        hr:first-of-type {
+          display: block;
         }
+      }
+
+      .bio-wide {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 415px) {
+    section {
+      h2 {
+        font-size: 20px;
       }
     }
   }

@@ -1,14 +1,30 @@
+/* eslint-disable react/prop-types */
+import { Link } from 'react-router-dom';
 import HeroStyles from '../styles/HeroStyles';
 
-function Hero() {
+function Hero({ currentPage, handleClick }) {
   return (
     <HeroStyles>
       <section>
         <div className="info-container">
-          <h1>Hi! I'm Nickolas Stello</h1>
-          <p>I'm a Front-End Developer based in Mississauga, Canada.</p>
+          <h1>Front-End Web Developer</h1>
           <p>
-            Currently open to opportunities.{' '}
+            Hi I'm Nick! I am passionate about web development technologies and
+            applying my problem-solving approach to executing web projects.
+            Currently open to opportunities.
+          </p>
+          <p>
+            Check out my{' '}
+            <span>
+              <Link
+                to="/projects"
+                onClick={handleClick}
+                className={`${currentPage === '/projects' ? 'active' : ''}`}
+              >
+                projects
+              </Link>
+            </span>{' '}
+            and{' '}
             <span>
               <a
                 href="mailto:stellonickolas@gmail.com"

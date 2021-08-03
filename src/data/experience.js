@@ -4,46 +4,34 @@ const experiences = [
     company: 'Benefit Plan Administrators Limited',
     position: 'Trust Fund Accountant',
     date: 'Jan 2016 – Present',
-    accomplishments:
-      'Reduced the number of unreconciled items by 94% in 2 months by improving communication and resolution process with the accounts receivable department.',
-    responsabilities: [
-      'Prepare financial reporting for Trustee Board meetings',
-      'Prepare and enter monthly journal entries using Accpac accounting software',
-      'Responsible for maintaining client General Ledgers and analyzing account activity',
-    ],
+    accomplishment:
+      'Improved the accuracy of bank reconciliation by developing standardized reports and processes and establishing frequent communication with the accounts receivable department to clarify bank discrepancies. It resulted in a reduction of unreconciled accounting balances by 94%.',
+    responsabilities: null,
   },
   {
     id: 2,
     company: 'Benefit Plan Administrators Limited',
     position: 'Accounting Team Leader',
     date: 'Jun 2014 – Dec 2015',
-    accomplishments:
-      'Managed accurately and efficiently the payout of over 20,000 cheques of the annual vacation pay payout in a two-week period.',
-    responsabilities: [
-      'Ensured accounting policies and procedures were adhered to in accordance with BPA standards',
-      'Oversaw the management of cash receipts and contributions',
-      'Calculated and prepared monthly disbursement spreadsheets and premium reports',
-    ],
+    accomplishment:
+      'Succeeded in managing the massive vacation pay payout by elaboration a schedule of tasks to be accomplished and guiding a team of four people throughout the process. Over 20,000 cheques were issued accurately and efficiently in a two-week period.',
+    responsabilities: null,
   },
   {
     id: 3,
     company: 'Benefit Plan Administrators Limited',
-    position: 'Welfare Administrator / CCO Liaison',
+    position: 'Welfare Administrator',
     date: 'Sep 2012 – May 2014',
-    accomplishments:
-      'Reduced the number of companies with outstanding balances by 86% and collected over $38,000 in long outstanding balances through detailed analysis of payment irregularities and persistent professional communication.',
-    responsabilities: [
-      'System maintenance and set up of employer contribution grids in accordance with the relevant Collective Agreement',
-      'Responded to enquiries from Union representatives, companies and members regarding eligibility, vacation pay and other issues',
-      'Assisted employers to complete documentation and reports for submission',
-    ],
+    accomplishment:
+      'Implemented a new communication system to reduce the number of employers with outstanding balances by creating reports detailing payment irregularities and mailing them out on a monthly basis. Outstanding balances decreased by 86% and over $38,000 in long outstanding balances were collected.',
+    responsabilities: null,
   },
   {
     id: 4,
     company: 'IIDEX/NEOCON Canada',
-    position: 'Business Administration Assistant',
+    position: 'Business Administration Assistant (Intern)',
     date: 'Jul 2012 – Sep 2012',
-    accomplishments: null,
+    accomplishment: null,
     responsabilities: null,
   },
   {
@@ -51,7 +39,7 @@ const experiences = [
     company: 'Construtora Stello Monteiro',
     position: 'Purchasing Agent',
     date: 'Jan 2010 – Jul 2010',
-    accomplishments: null,
+    accomplishment: null,
     responsabilities: null,
   },
   {
@@ -59,7 +47,7 @@ const experiences = [
     company: 'Importadora Bage S/A',
     position: 'Executive Administrative Assistant',
     date: 'Mar 2009 – Dec 2009',
-    accomplishments: null,
+    accomplishment: null,
     responsabilities: null,
   },
   {
@@ -67,7 +55,7 @@ const experiences = [
     company: 'Moinho Estrela LTDA',
     position: 'Customer Service and Invoicing Clerk',
     date: 'Mar 2004 – May 2008',
-    accomplishments: null,
+    accomplishment: null,
     responsabilities: null,
   },
 ];
