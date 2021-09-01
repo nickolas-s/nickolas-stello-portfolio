@@ -64,10 +64,11 @@ const HeroStyles = styled.div`
 
     .img-container {
       height: 200px;
-      min-width: 200px;
+      width: 200px;
       border-radius: 50%;
       border: 5px solid ${colors.paragraph};
       box-shadow: 0px 0px 8px ${colors.accentColor};
+      flex: none;
 
       img {
         width: 100%;
