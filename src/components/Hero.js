@@ -7,7 +7,7 @@ function Hero({ currentPage, handleClick }) {
     <HeroStyles>
       <section>
         <div className="info-container">
-          <h1>Front-End Web Developer</h1>
+          <h1>Data Analyst</h1>
           <p>
             Hi I'm Nick! I am passionate about web development technologies and
             applying my problem-solving approach to executing web projects.
