@@ -14,10 +14,10 @@ function ProjectCard({ title, description, image, projectURL, codeURL }) {
             Project
             <FaLaptopCode />
           </a>
-          <a href={codeURL} target="_blank" rel="noreferrer">
+          {/* <a href={codeURL} target="_blank" rel="noreferrer">
             Code
             <FaCode />
-          </a>
+          </a> */}
         </div>
       </div>
     </ProjectCardStyles>
