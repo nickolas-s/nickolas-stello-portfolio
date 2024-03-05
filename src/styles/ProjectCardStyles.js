@@ -29,7 +29,7 @@ const ProjectCardStyles = styled.article`
       line-height: normal;
       color: ${colors.paragraph};
       padding-bottom: 10px;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .links {

@@ -1,57 +1,44 @@
 const projects = [
   {
     id: 1,
-    title: 'Weather App',
-    description: 'Weather app on Vanilla JS',
+    title: 'PC Gaming Industry Analysis',
+    description:
+      'The goal of this project was to gain insight into the gaming industry as a whole, answering questions like "What defines a great game?" and "What characterizes the most popular games?"',
     image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556318/portfolio/weather-app_w67psm.png',
-    projectURL: 'https://the-weather-app-js.herokuapp.com',
-    codeURL: 'https://github.com/nickolas-s/Weather-App',
+      'https://res.cloudinary.com/dnfecsurp/image/upload/v1707937715/portfolio_2.0/project_04_nanylt.png',
+    projectURL: 'https://github.com/nickolas-s/Capstone_Project_LHL',
+    codeURL: 'https://github.com/nickolas-s/Capstone_Project_LHL',
   },
   {
     id: 2,
-    title: 'JavaScript 30 Challenge',
-    description: '30 JavaScript projects in 30 days',
+    title: 'Statistical Modelling with Python',
+    description:
+      'The main objective of this project was to construct a statistical model using Python that illustrates the relationship between the number of bikes in a specific location and the characteristics of the Points of Interest (POIs) in that location.',
     image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556318/portfolio/javascript30_bdwsgb.png',
-    projectURL: 'https://javascript-30-challenge.netlify.app',
-    codeURL: 'https://github.com/nickolas-s/Projects---JavaScript-30',
+      'https://res.cloudinary.com/dnfecsurp/image/upload/v1707937150/portfolio_2.0/project_02_m0xl1w.png',
+    projectURL:
+      'https://github.com/nickolas-s/Statistical-Modelling-Project-LHL',
+    codeURL: 'https://github.com/nickolas-s/Statistical-Modelling-Project-LHL',
   },
   {
     id: 3,
-    title: 'Alpha-Bots',
-    description: 'Alpha-Bots app on React',
+    title: 'FAA Wildlife Strikes Analysis',
+    description:
+      'The objective of this project was to analyze a table of wildlife strikes from 2000-2015 in the United States and create impactful dashboards that provide easily consumable visual insights.',
     image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1626267552/portfolio/alpha-bots2_grvlis.png',
-    projectURL: 'https://alpha-bots.netlify.app',
-    codeURL: 'https://github.com/nickolas-s/Alpha-Bots',
+      'https://res.cloudinary.com/dnfecsurp/image/upload/v1707937152/portfolio_2.0/project_03_yulnr8.png',
+    projectURL: 'https://github.com/nickolas-s/Tableau-Project-LHL',
+    codeURL: 'https://github.com/nickolas-s/Tableau-Project-LHL',
   },
   {
     id: 4,
-    title: 'GitHub User Finder',
-    description: 'App to view github user stats on React',
+    title: 'Transforming and Analyzing Data with SQL',
+    description:
+      'The primary objectives of this project included creating a new PostgreSQL database from .csv files, cleaning the tables, exploring and analyzing the data, and executing a quality assurance (QA) process.',
     image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556315/portfolio/github-user_npnnlc.png',
-    projectURL: 'https://github-user-finder-ns.netlify.app',
-    codeURL: 'https://github.com/nickolas-s/react-project-github-user-finder',
-  },
-  {
-    id: 5,
-    title: 'Trivia Quiz',
-    description: 'Trivia Quiz App on React',
-    image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556315/portfolio/trivia-quiz_rg4gql.png',
-    projectURL: 'https://trivia-quiz-ns.netlify.app',
-    codeURL: 'https://github.com/nickolas-s/react-project-trivia-quiz',
-  },
-  {
-    id: 6,
-    title: 'Confy Sloth',
-    description: 'E-commerce store on React',
-    image:
-      'https://res.cloudinary.com/dnfecsurp/image/upload/v1624556317/portfolio/confy-sloth_pat0zz.png',
-    projectURL: 'https://confyslothstore.netlify.app',
-    codeURL: 'https://github.com/nickolas-s/react-project-comfy-sloth',
+      'https://res.cloudinary.com/dnfecsurp/image/upload/v1709666257/portfolio_2.0/project_01_gbqmyw.png',
+    projectURL: 'https://github.com/nickolas-s/SQL-Project',
+    codeURL: 'https://github.com/nickolas-s/SQL-Project',
   },
 ];
 
