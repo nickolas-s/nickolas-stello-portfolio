@@ -9,9 +9,9 @@ function Hero({ currentPage, handleClick }) {
         <div className="info-container">
           <h1>Data Analyst</h1>
           <p>
-            Hi I'm Nick! I am passionate about web development technologies and
-            applying my problem-solving approach to executing web projects.
-            Currently open to opportunities.
+            Hi I'm Nick! I am passionate about data analysis and leveraging my
+            problem-solving skills to derive insights from data. Currently open
+            to opportunities.
           </p>
           <p>
             Check out my{' '}
