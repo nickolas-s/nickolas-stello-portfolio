@@ -1,8 +1,13 @@
 /* eslint-disable react/prop-types */
-import { FaCode, FaLaptopCode } from 'react-icons/fa';
+import { /* FaCode, */ FaLaptopCode } from 'react-icons/fa';
 import ProjectCardStyles from '../styles/ProjectCardStyles';
 
-function ProjectCard({ title, description, image, projectURL, codeURL }) {
+function ProjectCard({
+  title,
+  description,
+  image,
+  projectURL /* , codeURL */,
+}) {
   return (
     <ProjectCardStyles>
       <img src={image} alt={title} />
