@@ -18,26 +18,68 @@ function BioAside() {
       </div>
       <div className="container-name">
         <h2>NICKOLAS STELLO</h2>
-        <p>FRONT-END DEVELOPER</p>
+        <p>DATA ANALYST</p>
       </div>
       <div className="container-bio">
         <p>
-          Highly motivated self-taught web developer with solid knowledge of
-          HTML, CSS, JavaScript and React seeking to leverage analytical
-          thinking, problem solving and strong attention to detail skills
-          obtained through 5+ years as Trust Fund Accountant to transition to a
-          Front-End Developer position.
+          Solutions-oriented and customer-focused analyst with solid knowledge
+          of Python, SQL, and Tableau and over 10 years of business experience
+          seeking to leverage excellent analytical and attention to detail
+          skills. With a passion for continuous learning, well suited to
+          transition to a Data Analyst position.
         </p>
         <br />
         <p>
-          With a passion for learning, the next steps on the coding journey will
-          be to learn TypeScript and Node.js.
+          {/* With a passion for learning, the next steps on the coding journey will
+          be to learn TypeScript and Node.js. */}
         </p>
       </div>
       <hr />
       <div className="container-tech">
         <h2>Tech Skills</h2>
         <div>
+          <div className="tooltip">
+            <img
+              src="https://img.icons8.com/color/48/python--v1.png"
+              alt="Python Icon"
+            />
+            <span className="tooltiptext">Python</span>
+          </div>
+          <div className="tooltip">
+            <img
+              src="https://img.icons8.com/color/48/sql.png"
+              alt="SQL Icon "
+            />
+            <span className="tooltiptext">SQL</span>
+          </div>
+          <div className="tooltip">
+            <img
+              src="https://img.icons8.com/color/48/tableau-software.png"
+              alt="Tableau Icon"
+            />
+            <span className="tooltiptext">Tableau</span>
+          </div>
+          <div className="tooltip">
+            <img
+              src="https://img.icons8.com/fluency/48/jupyter.png"
+              alt="Jupyter Notebook Icon "
+            />
+            <span className="tooltiptext">Jupyter Notebook</span>
+          </div>
+          <div className="tooltip">
+            <img
+              src="https://img.icons8.com/color/48/pandas.png"
+              alt="Pandas Icon "
+            />
+            <span className="tooltiptext">Pandas</span>
+          </div>
+          <div className="tooltip">
+            <img
+              src="https://img.icons8.com/color/48/000000/git.png"
+              alt="Git Icon"
+            />
+            <span className="tooltiptext">Git</span>
+          </div>
           <div className="tooltip">
             <img
               src="https://img.icons8.com/color/48/000000/html-5--v1.png"
@@ -59,36 +101,15 @@ function BioAside() {
             />
             <span className="tooltiptext">JavaScript</span>
           </div>
-          <div className="tooltip">
-            <img
-              src="https://img.icons8.com/color/48/000000/react-native.png"
-              alt="React Icon"
-            />
-            <span className="tooltiptext">React</span>
-          </div>
-          <div className="tooltip">
-            <img
-              src="https://img.icons8.com/color/48/000000/sass.png"
-              alt="Sass Icon"
-            />
-            <span className="tooltiptext">Sass</span>
-          </div>
-          <div className="tooltip">
-            <img
-              src="https://img.icons8.com/color/48/000000/git.png"
-              alt="Git Icon"
-            />
-            <span className="tooltiptext">Git</span>
-          </div>
         </div>
       </div>
       <hr />
       <div className="container-soft">
         <h2>Soft Skills</h2>
         <ul>
-          <li>Teamwork</li>
-          <li>Open-minded</li>
-          <li>Problem Solving</li>
+          <li>Team Player</li>
+          <li>Quick Learner</li>
+          <li>Problem Solver</li>
           <li>Effective Communication</li>
         </ul>
       </div>
@@ -113,7 +134,7 @@ function BioAside() {
         </p>
         <p>
           <FaRegAddressBook className="icon" />
-          Toronto, ON
+          Hamilton, ON
         </p>
       </div>
       <hr />
