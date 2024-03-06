@@ -15,16 +15,16 @@ function ResumePage() {
         <section>
           <article className="bio-wide">
             <p>
-              Highly motivated self-taught web developer with solid knowledge of
-              HTML, CSS, JavaScript and React seeking to leverage analytical
-              thinking, problem solving and strong attention to detail skills
-              obtained through 5+ years as Trust Fund Accountant to transition
-              to a Front-End Developer position.
+              Solutions-oriented and customer-focused analyst with solid
+              knowledge of Python, SQL, and Tableau and over 10 years of
+              business experience seeking to leverage excellent analytical and
+              attention to detail skills. With a passion for continuous
+              learning, well suited to transition to a Data Analyst position.
             </p>
-            <p>
+            {/* <p>
               With a passion for learning, the next steps on the coding journey
               will be to learn TypeScript and Node.js.
-            </p>
+            </p> */}
           </article>
 
           <article>

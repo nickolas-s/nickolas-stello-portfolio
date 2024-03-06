@@ -5,7 +5,7 @@ const experiences = [
     position: 'Trust Fund Accountant',
     date: 'Jan 2016 – Present',
     accomplishment:
-      'Improved the accuracy of bank reconciliation by developing standardized reports and processes and establishing frequent communication with the accounts receivable department to clarify bank discrepancies. It resulted in a reduction of unreconciled accounting balances by 94%.',
+      'Improved accuracy of bank reconciliation by developing standardized reports and processes and established regular communications with the accounts receivable department; reduced unreconciled accounting balances by 94% in 2 months.',
     responsabilities: null,
   },
   {
@@ -14,7 +14,7 @@ const experiences = [
     position: 'Accounting Team Leader',
     date: 'Jun 2014 – Dec 2015',
     accomplishment:
-      'Succeeded in managing the massive vacation pay payout by elaboration a schedule of tasks to be accomplished and guiding a team of four people throughout the process. Over 20,000 cheques were issued accurately and efficiently in a two-week period.',
+      'Succeeded in managing massive vacation pay payout by creating a schedule of time-sensitive requirements and leading a team of four throughout the process; resulting in over 20K cheques being issued accurately in a 2-week period.',
     responsabilities: null,
   },
   {
@@ -23,7 +23,7 @@ const experiences = [
     position: 'Welfare Administrator',
     date: 'Sep 2012 – May 2014',
     accomplishment:
-      'Implemented a new communication system to reduce the number of employers with outstanding balances by creating reports detailing payment irregularities and mailing them out on a monthly basis. Outstanding balances decreased by 86% and over $38,000 in long outstanding balances were collected.',
+      'Implemented a new communication system to reduce employers with outstanding balances by creating reports detailing payment irregularities; decreased outstanding balances by 86% and collected over $38,000.',
     responsabilities: null,
   },
   {
