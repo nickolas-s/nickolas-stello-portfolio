@@ -1,7 +1,7 @@
 const experiences = [
   {
     id: 1,
-    company: 'Benefit Plan Administrators Limited',
+    company: 'BPA Financial Group',
     position: 'Trust Fund Accountant',
     date: 'Jan 2016 – Present',
     accomplishment:
@@ -10,7 +10,7 @@ const experiences = [
   },
   {
     id: 2,
-    company: 'Benefit Plan Administrators Limited',
+    company: 'BPA Financial Group',
     position: 'Accounting Team Leader',
     date: 'Jun 2014 – Dec 2015',
     accomplishment:
@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     id: 3,
-    company: 'Benefit Plan Administrators Limited',
+    company: 'BPA Financial Group',
     position: 'Welfare Administrator',
     date: 'Sep 2012 – May 2014',
     accomplishment:
