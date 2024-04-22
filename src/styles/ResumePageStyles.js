@@ -35,7 +35,7 @@ const ResumePageStyles = styled.div`
       }
 
       &-img {
-        height: 250px;
+        /* height: 250px; */
         img {
           width: 100%;
           height: 100%;
