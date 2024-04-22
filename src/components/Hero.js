@@ -38,7 +38,7 @@ function Hero({ currentPage, handleClick }) {
         </div>
         <div className="img-container">
           <img
-            src="https://res.cloudinary.com/dnfecsurp/image/upload/v1624719549/portfolio/profile-pic-square_upbjro.jpg"
+            src="https://res.cloudinary.com/dnfecsurp/image/upload/v1713794867/portfolio_2.0/profile_pic_02A_cropped_wck3jz.png"
             alt="profile pic"
           />
         </div>
