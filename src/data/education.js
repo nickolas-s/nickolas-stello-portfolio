@@ -58,7 +58,7 @@ const education = [
     topic: 'Management Accounting Fundamentals',
     institution: 'University of Toronto',
     date: 'Dec 2017',
-    link: null,
+    link: 'https://accounting-certificate.netlify.app',
     description: null,
   },
   {
@@ -66,7 +66,7 @@ const education = [
     topic: 'Marketing',
     institution: 'University of Toronto',
     date: 'Jun 2015',
-    link: null,
+    link: 'https://marketing-certificate.netlify.app',
     description: null,
   },
   {
@@ -74,7 +74,7 @@ const education = [
     topic: 'Bachelor of Business Administration',
     institution: 'Universidade Luterana do Brasil',
     date: 'Dec 2008',
-    link: null,
+    link: 'https://bba-diploma.netlify.app',
     description: null,
   },
 ];
